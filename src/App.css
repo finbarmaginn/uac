@@ -25,16 +25,6 @@ img {
 }
 
 
-.App-wrap ul {
-  padding: 0;
-  /* margin: 0; */
-  text-align: center;
-  list-style-type: none;
-}
-
-.App-wrap ul li {
-  padding: 0 0 20px;
-}
 
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {

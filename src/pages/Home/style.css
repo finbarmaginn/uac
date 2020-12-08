@@ -1,3 +1,17 @@
+.slideAnimation {
+  transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+}
+
+/* .visibleSlideOpacity {
+  opacity: 1;
+} */
+
+.hiddenSlideOpacity {
+  opacity: 0;
+}
+
 .vimeo-wrapper {
   padding: 0;
   width: 100%;
