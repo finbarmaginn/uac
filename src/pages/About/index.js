@@ -3,7 +3,6 @@ import './style.css';
 export const About = () => {
     return (
         <section className="App-wrap">
-            {/* <h2>About</h2> */}
             <ul className="members">
                 <li>
                     <h3>Paul Kitson</h3>

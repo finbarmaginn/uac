@@ -5,9 +5,8 @@ import './style.css'
 export const Header = () => {
     return (
         <header className="App-header App-wrap">
-            {/* <div className="link-container"> */}
             <NavLink className="logo" exact to="/">
-            <img src={logo} className="App-logo" alt="logo" />
+                <img src={logo} className="App-logo" alt="logo" />
             </NavLink>
             <nav>
                 <ul>
@@ -23,7 +22,6 @@ export const Header = () => {
                     </li>
                 </ul>
             </nav>
-            {/* </div> */}
         </header>
     )
 }
