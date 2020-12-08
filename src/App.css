@@ -6,10 +6,6 @@ img {
   max-width: 100%;
 }
 
-.App-header a.logo {
-  display: inline-block;
-}
-
 .App-logo {
   max-width: 120px;
   pointer-events: none;
@@ -24,113 +20,10 @@ img {
   overflow: hidden;
 }
 
-.App-header {
-  position: relative;
-  color: white;
-  height: auto;
-  padding: 20px;
-  overflow: hidden;
-}
-
-.App-header nav {
-  display: inline-block;
-  position: absolute;
-  right: 20px;
-  top: 35px;
-}
-
-.App-header nav ul {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-
-}
-
-
-.App-header nav ul li {
-  display: inline-block;
-  padding: 0 5px;
-}
-
-.App-header nav ul li:last-child {
-  padding-right: 0;
-}
-
-.App-header nav ul li a {
-  color: black;
-  text-decoration: none;
-  padding: 15px;
-  font-weight: bolder;
-}
-
-.App-header nav ul li a:hover,
-.App-header nav ul li a.active {
-  color: rgba(0, 0, 0, 0.5);
-  border-bottom: solid 1px rgba(0, 0, 0, 0.5);
-}
-
-.App-link {
-  color: black;
-}
-
 .App-wrap h2 {
   margin-top: 0;
 }
 
-.vimeo-wrapper {
-  padding: 0;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  position: relative;
-  /* pointer-events: none; */
-}
-
-.vimeo-wrapper iframe {
-  position: absolute;
-  box-sizing: border-box;
-  width: 177.77777778vh;
-  height: 56.25vw;
-  min-width: 100%;
-  min-height: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.App-wrap iframe {
-  box-sizing: border-box;
-  width: 100%;
-  min-height: 56.25%;
-}
-
-ul.members li h3 {
-  margin-bottom: 5px;
-}
-
-h3.coming-soon {
-  text-align: center;
-  margin: 30px 0;
-}
-
-.embed-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-}
-
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
 
 .App-wrap ul {
   padding: 0;

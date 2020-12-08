@@ -1,9 +1,9 @@
-import poster from '../Poster With Text Test copy.jpg'
+import poster from './Poster With Text Test copy.jpg'
+import './style.css'
 export const Home = () => {
     return (
         <div>
             <section className="App-wrap">
-                {/* <h3 className="coming-soon">Coming Soon...</h3> */}
                 <img src={poster} alt="poster" />
                 {/* <div className='embed-container'>
                     <iframe 

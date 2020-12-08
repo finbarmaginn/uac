@@ -1,8 +1,12 @@
 import './App.css';
 import { Route, Switch, Redirect } from "react-router-dom";
-import { Home } from './pages/Home';
-import { About } from './pages/About';
+
 import { Header } from './components/Header';
+import { Footer } from './components/Footer';
+
+
+import { Home } from './pages/Home/index';
+import { About } from './pages/About/index';
 
 function App() {
   return (
@@ -15,6 +19,7 @@ function App() {
           <Route path='/default' render={() => <Redirect to= "/" />} />
         </Switch>
       </div>
+      <Footer />
     </div>
   );
 }
