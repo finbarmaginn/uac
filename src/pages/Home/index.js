@@ -2,8 +2,6 @@ import './style.css'
 import { images } from './carouselImages';
 import Carousel from 'nuka-carousel';
 
-
-
 export const Home = () => {
     const items = []
     
@@ -73,23 +71,22 @@ export const Home = () => {
             experience to the project. Eugene and the McPeakes are great to work with
             and together we’ve created a fantastic set of stories with mystery, surprises
             and some authentic traditional music just in time for Christmas.”</p>
-            
-                {/* 
-                <Carousel dots animationSpeed={500}>
-                    <img src={poster} alt="Poster" />
-                    <img src={poster} alt="poster 2" />
-                </Carousel> */}
 
-                {/* <div className='embed-container'>
-                    <iframe 
-                        src='https://player.vimeo.com/video/448581653' 
-                        frameBorder='0' 
-                        title="Jack of the Lantern" 
-                        webkitallowfullscreen="true" 
-                        mozallowfullscreen="true"
-                        allowFullScreen
-                    ></iframe>
-                </div> */}
+            {/* 
+            <Carousel dots animationSpeed={500}>
+                <img src={poster} alt="Poster" />
+                <img src={poster} alt="poster 2" />
+            </Carousel> */}
+            {/* <div className='embed-container'>
+                <iframe 
+                    src='https://player.vimeo.com/video/448581653' 
+                    frameBorder='0' 
+                    title="Jack of the Lantern" 
+                    webkitallowfullscreen="true" 
+                    mozallowfullscreen="true"
+                    allowFullScreen
+                ></iframe>
+            </div> */}
            </section>
            {/* <div className="vimeo-wrapper">
                 <iframe
