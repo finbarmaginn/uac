@@ -4,7 +4,7 @@ import Carousel from 'nuka-carousel';
 
 export const Home = () => {
     const items = []
-    
+
     for(var i = 0; i < images.length; i++){
         items.push(<img src={images[i]} key={i} alt={`still${i}`} />)
     }
