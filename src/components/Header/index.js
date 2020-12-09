@@ -6,7 +6,7 @@ export const Header = () => {
     return (
         <header className="App-header App-wrap">
             <NavLink className="logo" exact to="/">
-                <img src={logo} className="App-logo" alt="logo" />
+                <img src={logo} className="App-logo" alt="logo" width="2211" height="1046" />
             </NavLink>
             <nav>
                 <ul>
