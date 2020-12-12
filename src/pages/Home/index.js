@@ -6,7 +6,7 @@ export const Home = () => {
     const items = []
 
     for(var i = 0; i < images.length; i++){
-        items.push(<img src={images[i]} key={i} alt={`still${i}`} width="1920" height="1080" />)
+        items.push(<img src={images[i]} key={i} alt={`still${i}`} width="1920" height="1080" />);
     }
 
     return (
@@ -34,9 +34,14 @@ export const Home = () => {
             <p>Released this December, Ghost Stories with the McPeakes, is a new three
             part anthology series featuring musical performances by the McPeake family
             and three original ghost stories written and directed by Eugene McPeake.</p>
-
+            
+            <div className="videoWrapper">
+                <iframe title="Ghost Stories with the McPeakes - Trailer" width="1920" height="1080" src="https://www.youtube.com/embed/m4aDw2HctVI">
+                </iframe>
+            </div>
+            
             <p>The episodes will be released daily on the Urban Arts Centres YouTube
-            channel in the run up to Christmas on the 22 nd , 23 rd and 24 th . With each
+            channel in the run up to Christmas on the 22nd, 23rd and 24th. With each
             episode available from 8pm.</p>
 
             <p>The three stories in the collection are:</p>
@@ -47,16 +52,31 @@ export const Home = () => {
             he tries to play it on his old wooden whistle he soon realises it just might be a
             tune that should never be played.</p>
 
+            <div className="videoWrapper">
+                <iframe title="The Banshees Lament" width="1920" height="1080" src="https://www.youtube.com/embed/WDq0zuR4jFU">
+                </iframe>
+            </div>
+
             <h4>The Crawling Witch</h4>
 
             <p>A young boy is haunted by the memories of a day long ago when he visited a
             local monument, the grave of ’The Crawling Witch’.</p>
+
+            <div className="videoWrapper">
+                <iframe title="The Crawling Witch" width="1920" height="1080" src="https://www.youtube.com/embed/-HHpAVaiOjY">
+                </iframe>
+            </div>
 
             <h4>Jack of the Lantern</h4>
 
             <p>The tradition of carving lanterns has its origin revealed when a string of local
             murders are committed, and a dangerous criminal continues to terrorise a
             community, even after death.</p>
+
+            <div className="videoWrapper">
+                <iframe title="Jack of the Lantern" width="1920" height="1080" src="https://www.youtube.com/embed/wXbLQQuqS0U">
+                </iframe>
+            </div>
 
             <p>Writer and director Eugene McPeake said: “The chance to work with my
             family and such a talented cast and crew has been a dream come true for me,
