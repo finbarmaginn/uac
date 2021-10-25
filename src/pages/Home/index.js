@@ -53,7 +53,7 @@ export const Home = () => {
             tune that should never be played.</p>
 
             <div className="videoWrapper">
-                <iframe title="The Banshees Lament" width="1920" height="1080" src="https://www.youtube.com/embed/WDq0zuR4jFU">
+                <iframe title="The Banshees Lament" width="1920" height="1080" src="https://www.youtube.com/embed/tiLLvgg5ScQ">
                 </iframe>
             </div>
 
